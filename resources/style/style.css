@@ -1,0 +1,117 @@
+body {
+    margin: 0px 0px 80px 0px;
+    /* Margin bottom by footer height */
+}
+section {
+    font-family: 'Helvetica', sans-serif;
+    padding: 24px;
+}
+section:nth-child(odd) {
+    background: rgb(245, 245, 245);
+}
+
+section:nth-child(even) {
+    background:rgb(255, 255, 255);
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+.wrapper > img {
+    height: max-content;
+}
+.wrapper-column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.wrapper-tight {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+.right {
+    text-align: right;
+}
+.center {
+    display: flex;
+    justify-content: space-evenly;
+}
+.hide {
+    display: none;
+}
+.btn {
+    margin-bottom: 10px
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+}
+div.container {
+    margin: 0;
+    max-width: 100%;
+}
+body > .container {
+    padding: 70px 0 70px 0;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+li.good-answer {
+    border-color: green;
+    border-width: 3px;
+}
+li.bad-answer {
+    border-color: red;
+    border-width: 3px;
+}
+div > h2 > .accordion-button:not(.collapsed) {
+  background-color: #CFFBB7;
+  color:dimgrey;
+}
+.arabic {
+    font-size: 4em;
+    font-family: 'Scheherazade', serif;
+    padding: 1em;
+}
+.invocation {
+    font-size: 4em;
+    font-family: 'Scheherazade', serif;
+}
+.repeat {
+    margin: 0px 10px 0px 10px;
+    color: dimgrey;
+}
+.repeat:hover, .repeat-active:hover {
+    color: midnightblue;
+}
+.repeat-active {
+    margin: 0px 10px 0px 10px;
+    color: lightseagreen;
+}
+.volume {
+    font-size: 1.5em;
+}
+.red-border {
+    border: red 2px solid;
+}
+li > a.bold {
+    font-weight: bold;
+}
